@@ -1,0 +1,37 @@
+name: jardiin_fssm
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.12.0 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  camera: ^0.10.0+4
+  cupertino_icons: ^1.0.2
+  flutter_barcode_scanner: ^2.0.0
+  flutter_tts: ^3.2.0
+  video_player: ^2.2.17  # Ajoutez cette ligne pour le package video_player
+  flutter_cube: ^0.1.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/logo_faculte.png
+    - assets/your_video.mp4  # Ajoutez le chemin de votre vidéo MP4 ici
+    - assets/jet/
+    - assets/jardin.jpg
+    - assets/télécharger.jpg
+    - assets/image.jpeg
+
+    
+
+
